@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql:///wechat?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+server:
+  context-path: /wechat
+#logging:
+#  # 配置日志的格式
+#  pattern:
+#    console: "%d - %msg%n"
+#  # 日志输出的路径, C:/var/log/tomcat/spring.log
+#  #  path: /var/log/tomcat/
+#  # 指定日志输出的文件名, 这个是文件, 不是文本文档, 并且输出的内容有颜色
+#  file: /var/log/tomcat/wechat/
+#  # 日志级别, 也可以具体到某个类的日志级别
+#  level:
+#    cn.ibubbo.TestLogger: debug
