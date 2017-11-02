@@ -15,9 +15,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 
-public class TestLogger {
+public class LoggerTest {
 
-    private final Logger logger = LoggerFactory.getLogger(TestLogger.class);
+    private final Logger logger = LoggerFactory.getLogger(LoggerTest.class);
 
     @Test
     public void test1() {
